@@ -2,13 +2,9 @@ let nums = [1, 2, 1];
 //Output: [1,2,1,1,2,1]
 
 const getConcatenation = (nums) => {
-  let ans = [];
   let size = nums.length;
   let ansSize = 2 * size;
-  while (ansSize) {
-    ans.push(-1);
-    ansSize--;
-  }
+  let ans = new Array(ansSize).fill(-1);
 
   let i = size - 1;
   while (i >= 0) {
@@ -16,6 +12,7 @@ const getConcatenation = (nums) => {
     ans[i + size] = nums[i];
     i--;
   }
+
   console.log(ans);
 };
 
