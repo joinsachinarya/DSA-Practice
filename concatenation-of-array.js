@@ -1,3 +1,4 @@
+//Method 1
 let nums = [1, 2, 1];
 //Output: [1,2,1,1,2,1]
 
@@ -17,3 +18,11 @@ const getConcatenation = (nums) => {
 };
 
 getConcatenation(nums);
+
+// //Method 2
+// let ans = [...nums, ...nums];
+// console.log(ans);
+
+// //Method 3
+// let ans = nums.concat(nums);
+// console.log(ans);
