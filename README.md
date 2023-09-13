@@ -1,2 +1,2 @@
 # DSA-Practice
-This repo is for dsa practice. Every commit contains different problem.
+This repo is for DS and A practice. Every commit contains different problem.
