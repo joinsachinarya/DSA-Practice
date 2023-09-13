@@ -1,13 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void sol()
+void sol(int n)
 {
-    for (int i = 1; i <= 5; i++)
+    for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= 5; j++)
+        for (int j = 1; j <= n; j++)
         {
-            if (j >= 6 - i)
+            if (j >= n + 1 - i)
             {
 
                 cout << "*";
@@ -23,6 +23,7 @@ void sol()
 
 int main()
 {
-    sol();
+    int n = 50;
+    sol(n);
     return 0;
 }
