@@ -5,9 +5,17 @@ void sol()
 {
     for (int i = 1; i <= 5; i++)
     {
-        for (int j = 1; j <= i; j++)
+        for (int j = 1; j <= 5; j++)
         {
-            cout << "* ";
+            if (j >= 6 - i)
+            {
+
+                cout << "*";
+            }
+            else
+            {
+                cout << " ";
+            }
         }
         cout << endl;
     }
