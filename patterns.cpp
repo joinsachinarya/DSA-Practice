@@ -6,10 +6,10 @@ void sol(int n)
     {
         for (int j = 1; j <= 5; j++)
         {
-            if (j <= n + 1 - i)
+            if (j >= i && j <= n)
             {
 
-                cout << "* ";
+                cout << "*";
             }
             else
             {
