@@ -3,19 +3,11 @@ using namespace std;
 
 void sol()
 {
-    for (int i = 1; i <= 4; i++)
+    for (int i = 1; i <= 5; i++)
     {
-        // every rows goes from i to i+2 and then back to i
-        for (int j = i; j <= i + 2; j++)
+        for (int j = 1; j <= i; j++)
         {
-            if (j >= i)
-            {
-                cout << j;
-            }
-            else
-            {
-                cout << "_";
-            }
+            cout << "* ";
         }
         cout << endl;
     }
